@@ -4,7 +4,7 @@ package com.le.www.proguartest.model;
  * Created by wangweijun1 on 2017/7/31.
  */
 
-public class User {
+public class Pig {
 
     private String username;
 

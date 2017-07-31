@@ -4,9 +4,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.le.www.proguartest.model.Pig;
 import com.le.www.proguartest.model.User;
+import com.le.www.proguartest.model.submodel.Son;
 
 public class MainActivity extends AppCompatActivity {
+
+    int wangweijunindex = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +19,17 @@ public class MainActivity extends AppCompatActivity {
 
         User user = new User();
         String result = user.addStr2("hhhh");
+        Log.i("www", "result:"+result);
+        result = user.addStr3("hhhh");
+        Log.i("www", "result:"+result);
+
+        Pig pig = new Pig();
+         result = pig.addStr2("hhhh");
+        Log.i("www", "result:"+result);
+
+
+        Son son = new Son();
+        result = son.addStr2("hhhh");
         Log.i("www", "result:"+result);
     }
 }

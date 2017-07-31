@@ -1,10 +1,10 @@
-package com.le.www.proguartest.model;
+package com.le.www.proguartest.model.submodel;
 
 /**
  * Created by wangweijun1 on 2017/7/31.
  */
 
-public class User {
+public class Son {
 
     private String username;
 
