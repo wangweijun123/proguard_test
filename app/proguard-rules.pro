@@ -26,6 +26,7 @@
 
 # com.le.www.proguartest.model 包底下所有类不混淆，以及类中所有变量和方法都不混淆
 -keep class com.le.www.proguartest.model.**{*;}
+-keep class com.wangweijun.volley.**{*;}
 
 #只是保留这个Pig类的定义，字段和方法会被混淆
 #-keep class com.le.www.proguartest.model.Pig

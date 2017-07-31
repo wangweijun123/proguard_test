@@ -7,6 +7,8 @@ import android.util.Log;
 import com.le.www.proguartest.model.Pig;
 import com.le.www.proguartest.model.User;
 import com.le.www.proguartest.model.submodel.Son;
+import com.wangweijun.volley.MyVolley;
+import com.wangweijun.volley.utils.HttpUtil;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,5 +33,9 @@ public class MainActivity extends AppCompatActivity {
         Son son = new Son();
         result = son.addStr2("hhhh");
         Log.i("www", "result:"+result);
+
+        MyVolley.p();
+
+        HttpUtil.p();
     }
 }
