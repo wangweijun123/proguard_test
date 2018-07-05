@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class HttpUtil {
 
-    public static void p() {
+    public static void print() {
         Log.i("wang", "xxxx");
     }
 }

@@ -26,7 +26,25 @@
 
 # com.le.www.proguartest.model 包底下所有类不混淆，以及类中所有变量和方法都不混淆
 -keep class com.le.www.proguartest.model.**{*;}
--keep class com.wangweijun.volley.**{*;}
+
+
+-keep class com.example.**{*;}
+
+# com.wangweijun 包以及子包中的class不混淆，以及类成员(变量与函数)不混淆
+#-keep class com.wangweijun.**{*;}
+
+# com.wangweijun 包底下的类名不混淆而已, 类成员都会被混淆,以及子包会混淆且所有的都会混淆
+# -keep class com.wangweijun.*
+
+# com.wangweijun 包底下的类名不混淆,以及类成员不混淆, 子包全部被混淆
+# -keep class com.wangweijun.*{*;}
+
+# 不混淆这个类名,仅此而已,类成员会被混淆
+#-keep class com.wangweijun.MyVolleyInWangweijun
+
+# 不混淆这个类以及类成员 com.wangweijun.MyVolleyInWangweijun
+# -keep class com.wangweijun.MyVolleyInWangweijun{*;}
+
 
 #只是保留这个Pig类的定义，字段和方法会被混淆
 #-keep class com.le.www.proguartest.model.Pig

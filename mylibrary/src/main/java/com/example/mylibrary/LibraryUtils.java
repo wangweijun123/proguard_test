@@ -1,4 +1,4 @@
-package com.wangweijun.volley;
+package com.example.mylibrary;
 
 import android.util.Log;
 
@@ -7,8 +7,8 @@ import android.util.Log;
  */
 
 
-public class MyVolley {
+public class LibraryUtils {
     public static void ppppp() {
-        Log.i("wang", "xxxx");
+        Log.i("wang", "this is library utils");
     }
 }

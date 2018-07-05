@@ -4,9 +4,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.mylibrary.LibraryUtils;
 import com.le.www.proguartest.model.Pig;
 import com.le.www.proguartest.model.User;
 import com.le.www.proguartest.model.submodel.Son;
+import com.wangweijun.MyVolleyInWangweijun;
 import com.wangweijun.volley.MyVolley;
 import com.wangweijun.volley.utils.HttpUtil;
 
@@ -34,8 +36,10 @@ public class MainActivity extends AppCompatActivity {
         result = son.addStr2("hhhh");
         Log.i("www", "result:"+result);
 
-        MyVolley.p();
+        MyVolley.ppppp();
+        MyVolleyInWangweijun.ppppp();
+        HttpUtil.print();
 
-        HttpUtil.p();
+        LibraryUtils.ppppp();
     }
 }

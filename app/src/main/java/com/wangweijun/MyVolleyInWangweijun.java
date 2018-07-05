@@ -1,4 +1,4 @@
-package com.wangweijun.volley;
+package com.wangweijun;
 
 import android.util.Log;
 
@@ -7,7 +7,7 @@ import android.util.Log;
  */
 
 
-public class MyVolley {
+public class MyVolleyInWangweijun {
     public static void ppppp() {
         Log.i("wang", "xxxx");
     }
